@@ -7,7 +7,7 @@ cd build
 
 # List of Ada source files
 SOURCE_FILES=(
-	"../src/gmain.adb"
+	"../src/main.adb"
 	"../src/greetings.adb"
 )
 

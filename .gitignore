@@ -2,6 +2,7 @@
 *.d
 
 # Build and install folders
+obj/
 build/
 *-Desktop-Debug/
 *-Desktop-Release/
