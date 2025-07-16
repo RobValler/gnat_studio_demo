@@ -1,14 +1,15 @@
 # build the Ada project
 #!/bin/bash
 
-rm -rf build || true
-mkdir build || true
-cd build 
+rm -rf obj || true
+mkdir obj || true
+cd obj
 
 # List of Ada source files
 SOURCE_FILES=(
-	"../src/main.adb"
+	"../src/gmain.adb"
 	"../src/greetings.adb"
+	"../src/greetings.ads"
 )
 
 # Compile each source file
