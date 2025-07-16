@@ -3,6 +3,7 @@
 
 # Build and install folders
 build/
+obj/
 *-Desktop-Debug/
 *-Desktop-Release/
 install/
